@@ -1,0 +1,2 @@
+🌟 Day 1 of #100DaysOfCode: Getting hands-on with JavaScript fundamentals and diving into web development! 
+💻 Follow my coding journey on GitHub as I work on projects like a Netflix clone using HTML/CSS! 
