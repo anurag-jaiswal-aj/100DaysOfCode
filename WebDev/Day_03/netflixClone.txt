@@ -1,0 +1,9 @@
+🌟 Day 3 of #100DaysOfCode: Started DSA tutorials, revised JavaScript datatypes, and wrapped up my Netflix clone project! 💻📚🎬 
+Excited to delve deeper into coding and learning! 
+
+
+Github Repo(Netflix Clone): https://github.com/anurag-jaiswal-aj/Netflix-Clone
+Web Link: https://anurag-jaiswal.static.domains/
+
+
+🚀 #DataStructures #Algorithms #JavaScript #NetflixClone #LearningInProgress
