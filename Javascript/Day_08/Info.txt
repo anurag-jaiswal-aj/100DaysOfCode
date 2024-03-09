@@ -1,0 +1,4 @@
+🌟 Day 8 of #100DaysOfCode: Mastered JavaScript arrays and practiced DSA questions on LeetCode! 💻🔍 
+Arrays are essential, and LeetCode challenges enhance problem-solving skills. 
+Let's keep pushing boundaries! 
+#JavaScript #DSA #LeetCode #LearningInProgress 🚀
