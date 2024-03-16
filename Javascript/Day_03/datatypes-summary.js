@@ -2,8 +2,9 @@
 
 //  7 types : String, Number, Boolearn, null, undefined, Symbol, BigInt
 
+ 
 const score = 100
-const scoreValue = 100.3
+const scoreValue = 100.4
 
 const isLoggedIn = false
 const outsideTemp = null
@@ -17,12 +18,11 @@ console.log(id === anotherId);
 // const bigNumber = 3456543576654356754n
 
 
-
 // Reference (Non primitive)
 
 // Array, Objects, Functions 
 
-const heros = ["shaktiman", "naagraj", "doga"];
+const heros = ["shaktimaan", "naagraj", "doga"];
 let myObj = {
     name: "hitesh",
     age: 22,
