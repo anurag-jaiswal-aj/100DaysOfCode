@@ -34,6 +34,8 @@ const url = "https://anurag.com/anurag%jaiswal"
 
 console.log(url.replace('%', '-'))
 
+
 console.log(url.includes('xyz'))
+
 
 console.log(gameName.split('-'));
