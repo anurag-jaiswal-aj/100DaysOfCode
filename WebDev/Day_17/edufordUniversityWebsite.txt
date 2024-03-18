@@ -1,0 +1,7 @@
+🌟 Day 17 of #100DaysOfCode: Explored scope levels and mini hoisting in JavaScript, completed web dev project, no progress in DSA. 
+Onward and upward in the coding journey! 💻🎨 
+
+Project Link: https://anurag-jaiswal-aj.github.io/Eduford-University/
+Repo: https://github.com/anurag-jaiswal-aj/Eduford-University
+
+#100DaysOfCode #JavaScript #WebDev #LearningInProgress 🚀
