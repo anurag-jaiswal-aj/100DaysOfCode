@@ -1,0 +1,8 @@
+🌟 Day 21 of #100DaysOfCode: Dedicated time to revising concepts in DSA and JavaScript! 
+💻📚 Topics covered in the last 20 days include arrays, binary search, JavaScript functions, object destructuring, scope levels, hoisting, and IIFE. 
+Building a strong foundation! 
+#100DaysOfCode #DSA #JavaScript #RevisionDay 🚀
+
+
+
+
