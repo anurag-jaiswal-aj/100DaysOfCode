@@ -172,11 +172,12 @@ int main()
     while (i <= n)
     {
         int j = 1;
-        int num = i;
+        // int num = i;
         while (j <= i)
         {
-            cout << num << " ";
-            num = num + 1;
+            cout << (i + j - 1) << " ";
+            // cout << num << " ";
+            // num = num + 1;
             j = j + 1;
         }
         cout << endl;
