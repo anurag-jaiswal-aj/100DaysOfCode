@@ -181,6 +181,14 @@
 //     }
 // }
 
+
+// O/P:
+// 1
+// 2 3
+// 3 4 5
+// 4 5 6 7 
+// 5 6 7 8 9
+
 // --------------------Pattern-------------------------------
 
 // #include <iostream>
@@ -202,6 +210,14 @@
 //         i = i+1;
 //     }
 // }
+
+// O/P:
+// 1
+// 21
+// 321
+// 4321
+// 54321
+
 
 // --------------------Pattern-------------------------------
 
@@ -227,6 +243,15 @@
 //     }
 
 // }
+// O/P:
+// AAAAA
+// BBBBB
+// CCCCC
+// DDDDD
+// EEEEE
+
+
+
 
 // --------------------Pattern-------------------------------
 
@@ -255,6 +280,17 @@
 //     }
 // }
 
+
+// O/P:
+// ABCDE
+// ABCDE
+// ABCDE
+// ABCDE
+// ABCDE
+
+
+
+
 // --------------------Pattern-------------------------------
 
 // #include <iostream>
@@ -282,6 +318,13 @@
 //     }
 // }
 
+// O/P:
+// BCDE
+// FGHIJ
+// KLMNO
+// PQRST
+// UVWXY
+
 // --------------------Pattern-------------------------------
 
 // #include <iostream>
@@ -308,6 +351,12 @@
 //     }
 // }
 
+// O/P:
+// ABCDE
+// BCDEF
+// CDEFG
+// DEFGH
+// EFGHI
 
 // --------------------------Pattern----------------------------------
 
@@ -331,6 +380,14 @@
 //     i = i + 1;
 //     }
 // }
+
+
+// O/P:
+// A
+// BB
+// CCC
+// DDDD
+// EEEEE
 
 
 
@@ -362,6 +419,13 @@
 // }
 
 
+// O/P:
+// A
+// BC
+// DEF
+// GHIJ
+// KLMNO
+
 // --------------------------Pattern----------------------------------
 
 // #include <iostream>
@@ -387,6 +451,13 @@
 //     }
 // }
 
+
+// O/P:
+// E
+// DE
+// CDE
+// BCDE
+// ABCDE
 
 
 // -----------------Pattern--------------------
@@ -415,39 +486,52 @@
 //     }
 // }
 
-
+// O/P:
+//     *
+//    **
+//   ***
+//  ****
+// *****
 
 
 // -----------------Pattern--------------------
 
 
-#include <iostream>
-using namespace std;
+// #include <iostream>
+// using namespace std;
 
-int main(){
-    int n ;
-    cin>>n;
+// int main(){
+//     int n ;
+//     cin>>n;
 
-    int i = 1;
+//     int i = 1;
 
-    while(i<=n){
-        int space = n -i;
-        while(space){
-            cout<<" ";
-            space = space - 1;
-        }
-        int j = 1;
-        while(j<=i){
-            cout<<j;
-            j = j +1;
-        }
+//     while(i<=n){
+//         int space = n -i;
+//         while(space){
+//             cout<<" ";
+//             space = space - 1;
+//         }
+//         int j = 1;
+//         while(j<=i){
+//             cout<<j;
+//             j = j +1;
+//         }
 
-        int start = i - 1;
-        while(start){
-            cout<<start;
-            start = start - 1;
-        }
-        cout<<endl;
-        i = i +1;
-    }
-}
+//         int start = i - 1;
+//         while(start){
+//             cout<<start;
+//             start = start - 1;
+//         }
+//         cout<<endl;
+//         i = i +1;
+//     }
+// }
+
+
+// O/P:
+//     1
+//    121
+//   12321
+//  1234321
+// 123454321
