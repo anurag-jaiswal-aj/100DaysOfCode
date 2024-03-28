@@ -97,20 +97,44 @@ int main()
 
     // ------------------------fibonacci series--------------
 
+    // int n;
+    // cout << "Enter the value of n:" << endl;
+    // cin >> n;
+
+    // int a = 0;
+    // int b = 1;
+    // cout<<a<<" "<<b<<" ";
+
+    // for (int i = 0; i <= n; i++)
+    // {
+    //     int c = a + b;
+    //     cout << c << " ";
+
+    //     a = b;
+    //     b = c;
+    // }
+
+    // ----------------------Prime or not---------------
+
     int n;
     cout << "Enter the value of n:" << endl;
     cin >> n;
 
-    int a = 0;
-    int b = 1;
-    cout<<a<<" "<<b<<" ";
-
-    for (int i = 0; i <= n; i++)
+    bool isPrime = 1;
+    for (int i = 2; i < n; i++)
     {
-        int nextNumber = a + b;
-        cout << nextNumber << " ";
-
-        a = b;
-        b = nextNumber;
+        if (n % i == 0)
+        {
+            isPrime = 0;
+            break;
+        }
+    }
+    if (isPrime == 0)
+    {
+        cout << "Not a prime number" << endl;
+    }
+    else
+    {
+        cout << "It is a Prime number" << endl;
     }
 }
