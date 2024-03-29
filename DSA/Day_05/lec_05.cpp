@@ -116,25 +116,47 @@ int main()
 
     // ----------------------Prime or not---------------
 
-    int n;
-    cout << "Enter the value of n:" << endl;
-    cin >> n;
+    // int n;
+    // cout << "Enter the value of n:" << endl;
+    // cin >> n;
 
-    bool isPrime = 1;
-    for (int i = 2; i < n; i++)
+    // bool isPrime = 1;
+    // for (int i = 2; i < n; i++)
+    // {
+    //     if (n % i == 0)
+    //     {
+    //         isPrime = 0;
+    //         break;
+    //     }
+    // }
+    // if (isPrime == 0)
+    // {
+    //     cout << "Not a prime number" << endl;
+    // }
+    // else
+    // {
+    //     cout << "It is a Prime number" << endl;
+    // }
+
+    // -------------------leetcode problem----------------------------------
+
+    int n;
+    cin >> n;
+    
+    int prod = 1;
+    int sum = 0;
+
+    while (n != 0)
     {
-        if (n % i == 0)
-        {
-            isPrime = 0;
-            break;
-        }
+
+        int digit = n % 10;
+        prod = prod * digit;
+        sum = sum + digit;
+
+        n = n / 10;
     }
-    if (isPrime == 0)
-    {
-        cout << "Not a prime number" << endl;
-    }
-    else
-    {
-        cout << "It is a Prime number" << endl;
-    }
+    int answer = prod - sum;
+    // return answer;
+
+    cout<<answer;
 }
