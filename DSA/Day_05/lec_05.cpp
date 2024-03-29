@@ -138,25 +138,45 @@ int main()
     //     cout << "It is a Prime number" << endl;
     // }
 
-    // -------------------leetcode problem----------------------------------
+    // -------------------leetcode problem::::Subtract the Product and Sum of Digits of an Integer----------------------------------
 
-    int n;
-    cin >> n;
-    
-    int prod = 1;
-    int sum = 0;
+    // int n;
+    // cin >> n;
 
-    while (n != 0)
-    {
+    // int prod = 1;
+    // int sum = 0;
 
-        int digit = n % 10;
-        prod = prod * digit;
-        sum = sum + digit;
+    // while (n != 0)
+    // {
 
-        n = n / 10;
-    }
-    int answer = prod - sum;
-    // return answer;
+    //     int digit = n % 10;
+    //     prod = prod * digit;
+    //     sum = sum + digit;
 
-    cout<<answer;
-}
+    //     n = n / 10;
+    // }
+    // int answer = prod - sum;
+    // // return answer;
+
+    // cout<<answer;
+
+
+
+    // -----------------------Number of 1 bits problem---------
+
+
+
+//     unsigned int n;
+//     cin >> n;
+
+//     int count = 0;
+//     while (n != 0)
+//     {
+//         if (n & 1)
+//         {
+//             count++;
+//         }
+//         n = n >> 1;
+//     }
+//     cout << count;
+// }
