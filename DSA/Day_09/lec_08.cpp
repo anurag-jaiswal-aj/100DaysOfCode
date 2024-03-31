@@ -76,7 +76,9 @@ int main()
     //     Rs10 = amount / 10;
     //     amount = amount % 10;
     //     cout << "No of 10 Rupee notes required are = " << Rs10 << endl;
-    // }
+
+    
+ }
 
 
 

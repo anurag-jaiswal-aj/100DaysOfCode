@@ -92,7 +92,7 @@
 //     return 0;
 // }
 
-// ------------------------------------------counting using function-----------------------------
+// -----------------------counting using function-----------------------------
 
 // #include <iostream>
 // using namespace std;
