@@ -1,5 +1,4 @@
-#include <iostream>
-using namespace std;
+
 
 // -------------------------Time Complexity-------------------------
 
@@ -32,16 +31,20 @@ using namespace std;
      O(log N)
      O(1)    (lowest complexity)
 
+Questions: 
 
+f(n)=2n^2 + 3n  --------O(n^2)
+f(n)=4n^4 + 3n^3 --------------O(n^4)
+f(n)=n^2+log(n) -------------O(n^2)
+f(n)=12001 ---------------O(1)  constant time
+f(n) = 3n^3 + 2n^2 + 5 -----O(n^3)
+f(n) = n^3/300 - --------- O(n^3)
+f(n) = 5n^2 + log(n) -------------O(n^2)
+f(n) = n/4  ------------- O(n)  linear time
+f(n) = (n+4)/4 ----------O(n)   linerar time
+    
 
 
 */
 
 
-
-
-int main()
-{
-
-    return 0;
-}
