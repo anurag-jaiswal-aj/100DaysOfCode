@@ -2,6 +2,10 @@
 
 // -------------------------Time Complexity-------------------------
 
+
+
+
+
 // --it is the amount of time taken by  ana algorithm to run
 
 // --- as a function of leght 0f the input
@@ -19,8 +23,11 @@
 
 
 
-// time complexity
-// (top to bottom complexity decrases)
+
+
+
+// time complexity (top to bottom complexity decrases)
+// 
 
 /*   O(N!)  (highrst complexity)
      O(2^n)
@@ -30,6 +37,10 @@
      O(N)
      O(log N)
      O(1)    (lowest complexity)
+
+
+
+
 
 Questions: 
 
