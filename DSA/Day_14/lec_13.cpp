@@ -37,8 +37,8 @@ int main()
     int even[6] = {1, 2, 3, 3, 5, 6};
     int odd[7] = {1, 2, 3, 6, 2, 2, 2};
 
-    cout << "First Occurence of 3 is:" << firstOcc(even, 6, 3);
-    cout << "First Occurence of 2 is:" << firstOcc(odd, 7, 2);
+    cout << "First Occurence of 3 is at index:" << firstOcc(even, 6, 3);
+    cout << "First Occurence of 2 is at index:" << firstOcc(odd, 7, 2);
 
     return 0;
 }
