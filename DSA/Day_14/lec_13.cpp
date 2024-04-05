@@ -1,5 +1,5 @@
 
-// ---------------------Problem 1--------------------------------------------
+// ---------------------Problem 1(first occurence | last occurence and number of occurence)--------------------------------------------
 
 
 
@@ -79,20 +79,27 @@
 
 
 
-// -------------------------------------------Program 02---------------------------------------------------------------------
+// -------------------------------------------Program 02 (Peak in mountain array)||(Leetcode solution)---------------------------------------------------------------------
 
 
+// class Solution {
+// public:
+//     int peakIndexInMountainArray(vector<int>& arr) {
+//         int s = 0;
+//         int e = arr.size() - 1;
+         
+//         int mid = s + (e-s)/2;
 
-
-#include<iostream>
-using namespace std;
-
-
-int main(){
-
-
-
-
-    return 0;
-}
+//         while(s<e){
+//             if(arr[mid] < arr[mid+1]){
+//                 s = mid + 1;
+//             }
+//             else{
+//                 e = mid;
+//             }
+//             mid = s + (e-s)/2;
+//         }
+//         return s;
+//     }
+// };
 
