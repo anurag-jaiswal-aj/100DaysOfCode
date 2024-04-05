@@ -30,6 +30,7 @@ int firstOcc(int arr[], int n, int key)
         mid = s + (e - s) / 2;
     }
     return ans;
+    cout<<ans;
 }
 
 int main()
