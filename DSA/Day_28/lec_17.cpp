@@ -1,8 +1,43 @@
+
+// --------------------------Bubble Sort----------------------------------------------------
+
 #include <iostream>
 using namespace std;
 
-int main(){
+int main()
+{
+    // Declaring variables
+    int n;
+    cout << "Enter the value of n: ";
+    cin >> n;
+    cout << "Enter the array elements: ";
+    int arr[n];
 
+    // Taking array elements input
+    for (int i = 0; i < n; i++)
+    {
+        cin >> arr[i];
+    }
+
+    // Bubble Sorting algorithm
+    for (int i = 1; i < n; i++)
+    {
+        for (int j = 0; j < n - i; j++)
+        {
+            if (arr[j] > arr[j + 1])
+            {
+                swap(arr[j], arr[j + 1]);
+            }
+        }
+    }
+
+    // Printing the output
+    cout << "Sorted array: ";
+    for (int i = 0; i < n; i++)
+    {
+        cout << arr[i] << " ";
+    }
+    cout << endl;
 
     return 0;
 }
