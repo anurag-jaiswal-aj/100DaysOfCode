@@ -142,10 +142,7 @@
 //     return 0;
 // }
 
-
-
 // ---------------------------List-------------------------------
-
 
 // #include <iostream>
 // #include <list>
@@ -155,7 +152,6 @@
 // {
 //     list<int> l;
 //     list<int> n(5,100);
-    
 
 //     cout<<"Printing n: "<<endl;
 //     for(int i:n){
@@ -163,14 +159,12 @@
 //     }
 //     cout<<endl;
 
-
 //     l.push_back(1);
 //     l.push_front(2);
 
 //     for(int i:l){
 //         cout<<i<<" ";
 //     }
-
 
 //     cout<<endl;
 //     l.erase(l.begin());
@@ -184,12 +178,7 @@
 //     return 0;
 // }
 
-
-
-
-
 // ------------------------------------Stack--------------------------------------
-
 
 // #include<iostream>
 // #include<stack>
@@ -210,27 +199,92 @@
 //     cout<<"Size of Stack: "<<s.size()<<endl;
 //     cout<<"Empty or not: "<<s.empty()<<endl;
 
+//     return 0;
+// }
+
+// ------------------------------------Queue--------------------------------------
+
+// #include<iostream>
+// #include<queue>
+// using namespace std;
+
+// int main(){
+
+// queue<string> q;
+// q.push("Anurag");
+// q.push("Jaiswal");
+// q.push("Aj");
+
+// cout<<"Size before pop: "<<q.size()<<endl;
+
+// cout<<"First Element: "<<q.front()<<endl;
+
+// q.pop();
+// cout<<"First Element: "<<q.front()<<endl;
+// cout<<"Size after pop: "<<q.size()<<endl;
 
 //     return 0;
 // }
 
+// --------------------Priority Queue---------------------------
 
+// #include <iostream>
+// #include <queue>
+// using namespace std;
 
+// int main()
+// {
 
-// ------------------------------------Queue--------------------------------------
+//     // max heop
+//     priority_queue<int> maxi;
 
+//     // min heap
+//     priority_queue<int, vector<int>, greater<int>> mini;
 
-#include<iostream>
-#include<queue>
+//     mini.push(5);
+//     mini.push(1);
+//     mini.push(0);
+//     mini.push(4);
+//     mini.push(3);
+
+//     cout << "Size: " << mini.size() << endl;
+//     int m = mini.size();
+//     for (int i = 0; i < m; i++)
+//     {
+//         cout << mini.top() << " ";
+//         mini.pop();
+//     }
+//     cout << endl;
+
+//     cout<<"Empty or not: "<<mini.empty()<<endl;
+
+//     return 0;
+// }
+
+// -------------------------------------SET------------------------------------
+
+#include <iostream>
+#include <set>
 using namespace std;
 
-int main(){
+int main()
+{
+    set<int> s;
 
+    s.insert(5);
+    s.insert(5);
+    s.insert(5);
+    s.insert(1);
+    s.insert(6);
+    s.insert(6);
+    s.insert(0);
+    s.insert(0);
+    s.insert(0);
 
+    for (auto i : s)
+    {
+        cout << i << endl;
+    }
 
     return 0;
 }
-
-
-
-
