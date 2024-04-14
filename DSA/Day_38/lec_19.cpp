@@ -188,11 +188,40 @@
 
 
 
-// ------------------------------------StacK--------------------------------------
+// ------------------------------------Stack--------------------------------------
+
+
+// #include<iostream>
+// #include<stack>
+// using namespace std;
+
+// int main(){
+//     stack<string> s;
+
+//     s.push("Anurag");
+//     s.push("Kumar");
+//     s.push("Jaiswal");
+
+//     cout<<"Top Element: "<<s.top()<<endl;
+
+//     s.pop();
+//     cout<<"Top ELement: "<<s.top()<<endl;
+
+//     cout<<"Size of Stack: "<<s.size()<<endl;
+//     cout<<"Empty or not: "<<s.empty()<<endl;
+
+
+//     return 0;
+// }
+
+
+
+
+// ------------------------------------Queue--------------------------------------
 
 
 #include<iostream>
-#include<stack>
+#include<queue>
 using namespace std;
 
 int main(){
@@ -201,7 +230,6 @@ int main(){
 
     return 0;
 }
-
 
 
 
