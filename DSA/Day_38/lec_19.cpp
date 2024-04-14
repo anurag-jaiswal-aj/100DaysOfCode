@@ -357,6 +357,8 @@ int main(){
 
     cout<<"Finding 6: "<<binary_search(v.begin(),v.end(),6)<<endl;
 
+
+
     int a = 4;
     int b = 5;
 
