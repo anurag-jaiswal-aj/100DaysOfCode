@@ -142,43 +142,67 @@
 //     return 0;
 // }
 
+
+
 // ---------------------------List-------------------------------
 
-#include <iostream>
-#include <list>
-using namespace std;
 
-int main()
-{
-    list<int> l;
-    list<int> n(5,100);
+// #include <iostream>
+// #include <list>
+// using namespace std;
+
+// int main()
+// {
+//     list<int> l;
+//     list<int> n(5,100);
     
 
-    cout<<"Printing n: "<<endl;
-    for(int i:n){
-        cout<<i<<" ";
-    }
-    cout<<endl;
+//     cout<<"Printing n: "<<endl;
+//     for(int i:n){
+//         cout<<i<<" ";
+//     }
+//     cout<<endl;
 
 
-    l.push_back(1);
-    l.push_front(2);
+//     l.push_back(1);
+//     l.push_front(2);
 
-    for(int i:l){
-        cout<<i<<" ";
-    }
+//     for(int i:l){
+//         cout<<i<<" ";
+//     }
 
 
-    cout<<endl;
-    l.erase(l.begin());
-    cout<<"After Erase"<<endl;
-    for(int i:l){
-        cout<<i<<" ";
-    }
+//     cout<<endl;
+//     l.erase(l.begin());
+//     cout<<"After Erase"<<endl;
+//     for(int i:l){
+//         cout<<i<<" ";
+//     }
 
-    cout<<"Size of List is: "<<l.size()<<endl;
+//     cout<<"Size of List is: "<<l.size()<<endl;
+
+//     return 0;
+// }
+
+
+
+
+
+// ------------------------------------StacK--------------------------------------
+
+
+#include<iostream>
+#include<stack>
+using namespace std;
+
+int main(){
 
 
 
     return 0;
 }
+
+
+
+
+
