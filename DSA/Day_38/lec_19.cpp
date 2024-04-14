@@ -178,8 +178,6 @@
 //     return 0;
 // }
 
-
-
 // ------------------------------------Stack--------------------------------------
 
 // #include<iostream>
@@ -204,8 +202,6 @@
 //     return 0;
 // }
 
-
-
 // ------------------------------------Queue--------------------------------------
 
 // #include<iostream>
@@ -229,9 +225,6 @@
 
 //     return 0;
 // }
-
-
-
 
 // --------------------Priority Queue---------------------------
 
@@ -268,10 +261,7 @@
 //     return 0;
 // }
 
-
-
 // -------------------------------------SET------------------------------------
-
 
 // #include <iostream>
 // #include <set>
@@ -307,17 +297,45 @@
 //     return 0;
 // }
 
-
-
 // -----------------------Map-----------------------------
 
-#include<iostream>
-#include<map>
-using namespace std;
+// #include <iostream>
+// #include <map>
 
-int main(){
+// using namespace std;
 
+// int main()
+// {
+//     map<int, string> m;
 
+//     m[1] = "Anurag";
+//     m[2] = "Jaiswal";
+//     m[3] = "AJ";
 
-    return 0;
-}
+//     m.insert({5, "bheem"});
+
+//     cout << "Before Erase:" << endl;
+//     for (auto i : m)
+//     {
+//         cout << i.first << " " << i.second << endl;
+//     }
+
+//     cout << "finding 13: " << m.count(13) << endl;
+//     cout << "finding 3: " << m.count(3) << endl;
+
+//     m.erase(3);
+//     cout << "After erase:" << endl;
+//     for (auto i : m)
+//     {
+//         cout << i.first << " " << i.second << endl;
+//     }
+
+//     auto it = m.find(5);
+
+//     // for (auto i = it; i != m.end(); i++)
+//     // {
+//     //     cout << (*i).first << endl;
+//     // }
+
+//     return 0;
+// }
