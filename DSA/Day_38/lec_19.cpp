@@ -263,28 +263,41 @@
 
 // -------------------------------------SET------------------------------------
 
-#include <iostream>
-#include <set>
-using namespace std;
+// #include <iostream>
+// #include <set>
+// using namespace std;
 
-int main()
-{
-    set<int> s;
+// int main()
+// {
+//     set<int> s;
 
-    s.insert(5);
-    s.insert(5);
-    s.insert(5);
-    s.insert(1);
-    s.insert(6);
-    s.insert(6);
-    s.insert(0);
-    s.insert(0);
-    s.insert(0);
+//     s.insert(5);
+//     s.insert(5);
+//     s.insert(5);
+//     s.insert(1);
+//     s.insert(6);
+//     s.insert(6);
+//     s.insert(0);
+//     s.insert(0);
+//     s.insert(0);
 
-    for (auto i : s)
-    {
-        cout << i << endl;
-    }
+//     for (auto i : s)
+//     {
+//         cout << i << endl;
+//     }
+//     cout << endl;
 
-    return 0;
-}
+//     s.erase(s.begin());
+
+//     for (auto i : s)
+//     {
+//         cout << i << endl;
+//     }
+
+//     return 0;
+// }
+
+
+
+// -----------------------Map-----------------------------
+
