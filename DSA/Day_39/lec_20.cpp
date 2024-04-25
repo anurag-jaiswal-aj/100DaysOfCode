@@ -5,26 +5,26 @@
 #include <vector>
 using namespace std;
 
-vector<int> reverse(vector<int> v)
+vector<int> reverse(vector<int> arr)
 {
 
-    int s = 0, e = v.size() - 1;
+    int s = 0, e = arr.size() - 1;
 
     while (s <= e)
     {
-        swap(v[s], v[e]);
+        swap(arr[s], arr[e]);
         s++;
         e--;
     }
-    return v;
+    return arr;
 }
 
-void print(vector<int> v)
+void print(vector<int> arr)
 {
 
-    for (int i = 0; i < v.size(); i++)
+    for (int i = 0; i < arr.size(); i++)
     {
-        cout << v[i] << " ";
+        cout << arr[i] << " ";
     }
     cout << endl;
 }
@@ -32,15 +32,18 @@ void print(vector<int> v)
 int main()
 {
 
-    vector<int> v;
+    vector<int> arr;
 
-    v.push_back(11);
-    v.push_back(7);
-    v.push_back(3);
-    v.push_back(12);
-    v.push_back(4);
+    arr.push_back(11);
+    arr.push_back(7);
+    arr.push_back(3);
+    arr.push_back(12);
+    arr.push_back(4);
 
-    vector<int> ans = reverse(v);
+    vector<int> ans = reverse(arr);
+
+    cout << "Printing  array:" << endl;
+    print(arr);
 
     cout << "Printing reverse array:" << endl;
     print(ans);
