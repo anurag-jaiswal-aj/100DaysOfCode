@@ -27,8 +27,6 @@ void print(vector<int> v)
         cout << v[i] << " ";
     }
     cout << endl;
-
-    
 }
 
 int main()
@@ -44,6 +42,7 @@ int main()
 
     vector<int> ans = reverse(v);
 
+    cout << "Printing reverse array:" << endl;
     print(ans);
 
     return 0;
