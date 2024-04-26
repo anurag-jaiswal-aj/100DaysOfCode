@@ -67,46 +67,72 @@
 
 
 
+
 //-----------------------------------------Add two arrays---------------------------------------------------------
 #include <iostream>
 #include <vector>
 #include "../../../../../../MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/algorithmfwd.h"
 using namespace std;
 
-vector<int> addTwoArrays(const vector<int>& a, const vector<int>& b) {
-    vector<int> ans;
-    int i = a.size() - 1;
-    int j = b.size() - 1;
-    int carry = 0;
-
-    while (i >= 0 || j >= 0) {
-        int val1 = (i >= 0) ? a[i] : 0;
-        int val2 = (j >= 0) ? b[j] : 0;
-        int sum = val1 + val2 + carry;
-        carry = sum / 10;
-        sum %= 10;
-        ans.push_back(sum);
-        i--;
-        j--;
-    }
-
-    if (carry != 0) {
-        ans.push_back(carry);
-    }
-
-    reverse(ans.begin(), ans.end()); // Reverse the vector to get the correct order
-    return ans;
-}
-
 int main() {
-    vector<int> a = {1, 2, 3};
-    vector<int> b = {4, 5, 6};
+    
+    vector<int> a = {9, 2, 3, 7 }; 
+    vector<int> b = {4, 5, 6, 5 ,6}; 
 
-    vector<int> result = addTwoArrays(a, b);
+    vector<int> ans; 
 
-    // Output the result array
-    for (int i = 0; i < result.size(); i++) {
-        cout << result[i] << " ";
+    int i = a.size() - 1; // Initialize index i to the last index of array 
+    int j = b.size() - 1; 
+
+    int carry = 0; 
+
+    // Loop until both indices i and j are non-negative
+    while (i >= 0 && j >= 0) {
+
+        int val1 = a[i]; // Get the digit at index i from array a
+        int val2 = b[j]; // j from array b
+
+        int sum = val1 + val2 + carry; // Calculate the sum of the digits along with carry
+
+        carry = sum / 10; // Update carry for the next iteration
+
+        sum %= 10; // Get the digit part of the sum
+
+        ans.push_back(sum); //Add the digit to the result array
+
+        i--; // Move to the next digit 
+        j--; 
+    }
+
+    // Loop through the remaining digits in array a
+
+    while (i >= 0) {
+        int sum = a[i] + carry; 
+        carry = sum / 10; 
+        sum %= 10; 
+        ans.push_back(sum); 
+        i--;
+    }
+
+   
+    while (j >= 0) {
+        int sum = b[j] + carry; 
+        carry = sum / 10; 
+        sum %= 10; 
+        ans.push_back(sum); 
+        j--; 
+    }
+
+
+    // If there's still a carry after processing both arrays
+    while (carry != 0) {
+        ans.push_back(carry % 10); // Add the remaining carry to the result array
+        carry /= 10; // Update carry for the next iteration
+    }
+
+   
+    for (int k = ans.size() - 1; k >= 0; k--) {
+        cout << ans[k] << " ";
     }
     cout << endl;
 
