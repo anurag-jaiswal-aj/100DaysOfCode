@@ -139,6 +139,7 @@ int main()
             temp.push_back(str[i]);
         }
     }
+cout<<"Aaj"<<endl;
 
     cout << "Modified string: " << temp << endl;
     return 0;
