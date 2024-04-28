@@ -117,30 +117,58 @@ int main()
 
 */
 
-#include <iostream>
-using namespace std;
 
-int main()
-{
-    string str ;
-    cin >> str;
-    string temp = "";
 
-    for (int i = 0; i < str.length(); i++)
-    {
-        if (str[i] == ' ')
-        {
-            temp.push_back('@');
-            temp.push_back('4');
-            temp.push_back('0');
-        }
-        else
-        {
-            temp.push_back(str[i]);
-        }
-    }
-cout<<"Aaj"<<endl;
 
-    cout << "Modified string: " << temp << endl;
-    return 0;
-}
+// -----------------------------Remove Space--------------------------------------------
+
+
+
+// #include <iostream>
+// using namespace std;
+
+// int main()
+// {
+//     string str ;
+//     cin >> str;
+//     string temp = "";
+
+//     for (int i = 0; i < str.length(); i++)
+//     {
+//         if (str[i] == ' ')
+//         {
+//             temp.push_back('@');
+//             temp.push_back('4');
+//             temp.push_back('0');
+//         }
+//         else
+//         {
+//             temp.push_back(str[i]);
+//         }
+//     }
+//     cout << "Modified string: " << temp << endl;
+//     return 0;
+// }
+
+
+
+
+// ----------------------Remove all occurence of substring-----------------------------------------------
+
+
+// #include <iostream>
+// #include <string>
+// using namespace std;
+
+// int main() {
+//     string s = "example string with part to remove";
+//     string part = "part";
+
+//     while (s.length() != 0 && s.find(part) < s.length()) {
+//         s.erase(s.find(part), part.length());
+//     } 
+
+//     cout << s << endl;
+
+//     return 0;
+// }
