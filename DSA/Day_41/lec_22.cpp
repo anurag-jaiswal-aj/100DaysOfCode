@@ -172,3 +172,106 @@ int main()
 
 //     return 0;
 // }
+
+
+
+
+// -------------------permutation in string----------------------
+
+// #include <iostream>
+// #include <string>
+// using namespace std;
+
+// bool checkPermutation(string s1, string s2) {
+//     if (s1.length() != s2.length())
+//         return false;
+
+//     int count1[26] = {0};
+//     int count2[26] = {0};
+
+//     for (int i = 0; i < s1.length(); i++) {
+//         int index = s1[i] - 'a';
+//         count1[index]++;
+//     }
+
+//     for (int i = 0; i < s2.length(); i++) {
+//         int index = s2[i] - 'a';
+//         count2[index]++;
+//     }
+
+//     for (int i = 0; i < 26; i++) {
+//         if (count1[i] != count2[i])
+//             return false;
+//     }
+
+//     return true;
+// }
+
+// int main() {
+//     string s1 = "abc";
+//     string s2 = "bca";
+
+//     if (checkPermutation(s1, s2))
+//         cout << "s2 is a permutation of s1" << endl;
+//     else
+//         cout << "s2 is not a permutation of s1" << endl;
+
+//     return 0;
+// }
+
+
+
+
+// -----------------------Remove all adjacent duplicate-------------------------------------
+
+// #include <iostream>
+// using namespace std;
+
+// int main(){
+
+
+
+//     return 0;
+// }
+
+
+
+
+// -----------------------String compression--------------------------
+
+#include <iostream>
+#include <vector>
+#include <string>
+using namespace std;
+
+int compress(vector<char>& chars) {
+    int ansIndex = 0;
+    int n = chars.size();
+    int i = 0;
+    while (i < n) {
+        int j = i + 1;
+        while (j < n && chars[i] == chars[j]) {
+            j++;
+        }
+        chars[ansIndex++] = chars[i];
+        int count = j - i;
+        if (count > 1) {
+            string cnt = to_string(count);
+            for (char ch : cnt) {
+                chars[ansIndex++] = ch;
+            }
+        }
+        i = j;
+    }
+    return ansIndex;
+}
+
+int main() {
+    vector<char> chars = {'a', 'a', 'b', 'b', 'b', 'c', 'c', 'c', 'c'};
+    int compressedLength = compress(chars);
+    for (int i = 0; i < compressedLength; ++i) {
+        cout << chars[i];
+    }
+    cout << endl;
+    return 0;
+}
