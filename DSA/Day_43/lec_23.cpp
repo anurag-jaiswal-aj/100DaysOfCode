@@ -458,12 +458,54 @@
 
 
 #include <iostream>
+#include <vector>
 using namespace std;
 
-int main(){
+bool searchMatrix(vector<vector<int>>& matrix, int target) {
+    int row = matrix.size();
+    int col = matrix[0].size();
+    int rowIndex = 0;
+    int colIndex = col - 1;
 
+    while (rowIndex < row && colIndex >= 0) {
+        if (matrix[rowIndex][colIndex] == target) {
+            return true; // Found the target
+        } else if (matrix[rowIndex][colIndex] < target) {
+            // Move to the next row if the current element is smaller than the target
+            rowIndex++;
+        } else {
+            // Move to the previous column if the current element is larger than the target
+            colIndex--;
+        }
+    }
 
+    return false; // Target not found
+}
 
+int main() {
+    // Example 2D matrix
+    vector<vector<int>> matrix = {
+        {1, 4, 7, 11, 15},
+        {2, 5, 8, 12, 19},
+        {3, 6, 9, 16, 22},
+        {10, 13, 14, 17, 24},
+        {18, 21, 23, 26, 30}
+    };
+
+    // Target value to search
+    int target;
+    cout << "Enter the target value: ";
+    cin >> target;
+
+    // Perform the search
+    bool found = searchMatrix(matrix, target);
+
+    // Output the result
+    if (found) {
+        cout << "Target value found in the matrix." << endl;
+    } else {
+        cout << "Target value not found in the matrix." << endl;
+    }
 
     return 0;
 }
