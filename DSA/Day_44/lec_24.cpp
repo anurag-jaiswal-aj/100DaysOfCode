@@ -134,4 +134,40 @@
 
 
 
-// ---------------------------GCD/HCF--------------------------
+// ---------------------------modular exponentiation--------------------------
+
+// #include <iostream>
+// using namespace std;
+
+// int power(int a, int b, int m) {
+//     int res = 1;
+
+//     while (b > 0) {
+//         if (b & 1) {
+//             res = ((res % m) * (a % m)) % m; // Update res with modular multiplication
+//         }
+//         a = ((a % m) * (a % m)) % m; // Square a and take modulo m
+//         b >>= 1; // Divide b by 2 using right shift operator
+//     }
+
+//     return res;
+// }
+
+// int main() {
+//     int a, b, m;
+//     cout << "Enter the base (a): ";
+//     cin >> a;
+//     cout << "Enter the exponent (b): ";
+//     cin >> b;
+//     cout << "Enter the modulus (m): ";
+//     cin >> m;
+
+//     int result = power(a, b, m);
+//     cout << "Result: " << result << endl;
+
+//     return 0;
+// }
+
+
+
+
