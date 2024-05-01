@@ -96,41 +96,42 @@
 
 // ---------------------------GCD/HCF--------------------------
 
-#include<iostream>
-using namespace std;
+// #include<iostream>
+// using namespace std;
 
-int gcd(int a, int b) {
+// int gcd(int a, int b) {
 
-    if(a==0)
-    return b;
+//     if(a==0)
+//     return b;
 
-    if(b==0)
-    return a;
+//     if(b==0)
+//     return a;
 
-    while(a != b) {
+//     while(a != b) {
 
-        if(a>b)
-        {
-            a = a-b;
-        }
-        else{
-            b = b-a;
-        }
-    }
-    return a;
-}
+//         if(a>b)
+//         {
+//             a = a-b;
+//         }
+//         else{
+//             b = b-a;
+//         }
+//     }
+//     return a;
+// }
 
-int main() {
+// int main() {
     
-    int a,b;
-    cout << "Enter the Values of a and b" << endl;
-    cin >> a >> b;
+//     int a,b;
+//     cout << "Enter the Values of a and b" << endl;
+//     cin >> a >> b;
 
-    int ans = gcd(a,b);
+//     int ans = gcd(a,b);
 
-    cout << " The GCD of " << a << " & " << b << " is: " << ans << endl;
+//     cout << " The GCD of " << a << " & " << b << " is: " << ans << endl;
+//     return 0;
+// }
 
 
 
-    return 0;
-}
+// ---------------------------GCD/HCF--------------------------
