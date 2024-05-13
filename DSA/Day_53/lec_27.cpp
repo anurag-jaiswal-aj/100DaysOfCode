@@ -102,8 +102,45 @@ int main(){
 // cout<<*p<<endl;
 // // o/p:error
 
-//---------5--------------
-int first = 
+// //---------5--------------
+// int first = 8;
+// int second = 11;
+// int *third = &second;
+// first = *third;
+// *third = *third + 2;
+// cout<< first << " "<<second<< endl;
+// // o/p:11 13
+
+
+
+// //-----------6---------
+// float f = 12.5;
+// float p = 21.5;
+// float* ptr = &f;
+// (*ptr)++;
+// *ptr = p;
+// cout<< *ptr <<" "<< f <<" "<<p<<endl;
+// // O/p:21.5 215 21.5
+
+
+
+// //-------7-------
+// int arr[5];
+// int *ptr;
+// cout<<sizeof(arr) <<" "<< sizeof(ptr)<<endl;
+// // o/P:20 8 or 4
+
+
+// //-----8-----
+// int arr[] = {11,21,13,14};
+// cout<<*(arr)<<" "<<*(arr+1)<<endl;
+// O/P:11 21
+
+// //------9------
+// int arr[6] = {11,12,31};
+// cout<<arr<<" "<< &arr <<endl;
+// // O/P: 0x61fef8  0x61fef8
+
 
 
     return 0;
