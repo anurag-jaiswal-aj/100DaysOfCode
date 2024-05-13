@@ -68,7 +68,39 @@ using namespace std;
 
 int main(){
 
+// // -----1-------
+// int first = 8;
+// int second = 18;
+// int *ptr = &second;
+// *ptr = 9;
+// cout<<first << " "<<second<<endl;
+// // O/P: 8 9
 
+
+// // -------2----------
+// int first = 6;
+// int *p = &first;
+// int *q = p;
+// (*q)++;
+// cout<<first<<endl;
+// // o/p: 7
+
+
+// // -----------3--------
+// int first = 8;
+// int *p = &first;
+// cout<<(*p)++ << " ";
+// cout<<first<<endl;
+// o/p: 8 9
+
+
+//----------4-------------
+int *p = 0;
+int first = 110;
+*p = first;
+// p = &first;
+cout<<*p<<endl;
+// o/p:error
 
 
     return 0;
