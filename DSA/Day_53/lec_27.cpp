@@ -200,17 +200,14 @@ int main(){
 // cout<<first <<" "<<second<<endl;
 
 
-//---17----
-int first = 100;
-int *p = &first;
-int**q = &p;
-int second  = ++(**q);
-int *r = *q;
-++(*r);
-cout<<first<<" "<<second<<endl;
-
-
-
+// //---17----
+// int first = 100;
+// int *p = &first;
+// int**q = &p;
+// int second  = ++(**q);
+// int *r = *q;
+// ++(*r);
+// cout<<first<<" "<<second<<endl;
 
 
 
