@@ -94,13 +94,16 @@ int main(){
 // o/p: 8 9
 
 
-//----------4-------------
-int *p = 0;
-int first = 110;
-*p = first;
-// p = &first;
-cout<<*p<<endl;
-// o/p:error
+// //----------4-------------
+// int *p = 0;
+// int first = 110;
+// *p = first;
+// // p = &first;
+// cout<<*p<<endl;
+// // o/p:error
+
+//---------5--------------
+int first = 
 
 
     return 0;
