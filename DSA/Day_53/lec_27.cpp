@@ -143,5 +143,65 @@ int main(){
 
 
 
+// //----10------
+// int arr[] = {11,12,13,14,15};
+// cout<<*(arr)<<" "<< *(arr+3);
+// // O/P:11 14
+
+
+// //-----11-------
+// int arr[] = {11,21,31,41};
+// int *ptr = arr++;
+// cout<<*ptr<<endl;
+// // o/P: error
+
+
+// //--------12-----
+// char ch = 'a';
+// char* ptr =&ch;
+// ch++;
+// cout<< *ptr <<endl;
+// // O/P:b
+
+
+// //---------13--------
+// char arr[] ="abcde";
+// char *p = &arr[0];
+// cout << p << endl;
+// // O/P:abcde
+
+
+// // -----------14----------]
+// char str[] = "babbar";
+// char *p = str;
+// cout<<str[0]<<" "<<p[0]<<endl;
+// // O/P:b b 
+
+
+
+//---------------15--
+
+void update(int *p){
+    *p = (*p)*2;
+}
+
+int main(){
+    int i = 10;
+    update(&i);
+    cout << i << endl;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
     return 0;
 }
