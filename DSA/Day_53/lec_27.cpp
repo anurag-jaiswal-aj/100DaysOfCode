@@ -179,23 +179,35 @@ int main(){
 
 
 
-//---------------15--
+// //---------------15--
 
-void update(int *p){
-    *p = (*p)*2;
-}
+// void update(int *p){
+//     *p = (*p)*2;
+// }
 
-int main(){
-    int i = 10;
-    update(&i);
-    cout << i << endl;
-}
-
-
+// int main(){
+//     int i = 10;
+//     update(&i);
+//     cout << i << endl;
+// }
 
 
+// //--16-----------
+// int first = 110;
+// int*p = &first;
+// int**q = &p;
+// int second =(**q)++ +9;
+// cout<<first <<" "<<second<<endl;
 
 
+//---17----
+int first = 100;
+int *p = &first;
+int**q = &p;
+int second  = ++(**q);
+int *r = *q;
+++(*r);
+cout<<first<<" "<<second<<endl;
 
 
 
