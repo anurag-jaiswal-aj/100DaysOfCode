@@ -8,6 +8,11 @@ int& func(int a){
     return ans;
 }
 
+int* func1(int n){
+    int* ptr =&n;
+    return ptr;
+}
+
 void update2(int& n){
     n++;
 }
@@ -35,6 +40,7 @@ int main(){
    cout<<"After:"<<n<<endl;
 
    func(n);
+   func1(n);
 
 
     return 0;
