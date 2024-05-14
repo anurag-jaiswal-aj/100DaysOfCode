@@ -2,6 +2,12 @@
 using namespace std;
 
 
+int& func(int a){
+    int num = a;
+    int& ans = num;
+    return ans;
+}
+
 void update2(int& n){
     n++;
 }
@@ -27,6 +33,9 @@ int main(){
    cout<<"Before:"<<n<<endl;
    update2(n);  //pass by reference (new memory will not be created)
    cout<<"After:"<<n<<endl;
+
+   func(n);
+
 
     return 0;
 }
