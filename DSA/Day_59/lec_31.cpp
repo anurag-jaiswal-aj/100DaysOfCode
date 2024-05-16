@@ -16,7 +16,6 @@ int main(){
     int ans = factorial(n);
 
     cout<<ans<<endl;
-    
 
     return 0;
 }
