@@ -26,9 +26,6 @@
 //     return 0;
 // }
 
-
-
-
 // -------------power of 2---------------
 
 // #include <iostream>
@@ -48,8 +45,6 @@
 
 // return 2 * power(n-1);
 
-
-
 // }
 
 // int main(){
@@ -60,30 +55,35 @@
 //     int ans = power(n);
 //     cout<<ans<<endl;
 
-
 //     return 0;
 // }
-
-
 
 // -------------print counting--------------
 
 #include <iostream>
 using namespace std;
 
-int counting(int n){
-    if (n==0){
+int counting(int n)
+{
+    if (n == 0)
+    {
         return 0;
     }
-    cout<< n <<endl;
-    counting(n-1);
 
+    // tail recursion
+    //  cout<< n <<endl;
+
+    counting(n - 1);
+
+    // head recursion
+    cout << n << endl;
 }
 
-int main(){
+int main()
+{
     int n;
-    cout<<"Enter the value of n:"<<endl;
-    cin>>n;
+    cout << "Enter the value of n:" << endl;
+    cin >> n;
 
     counting(n);
 
