@@ -36,39 +36,95 @@
 //     return 0;
 // }
 
+
+
+
+
+
 // -----------------------febonaci series------------
+
+// #include <iostream>
+// using namespace std;
+
+// int fibonacci(int n)
+// {
+
+//     // base case
+//     if (n == 0)
+//     {
+//         return 0;
+//     }
+//     if (n == 1)
+//     {
+//         return 1;
+//     }
+
+//     // recursion call
+//     return fibonacci(n - 1) + fibonacci(n - 2);
+// }
+
+// int main()
+// {
+//     int n;
+//     cout << "Enter the value of n:" << endl;
+//     cin >> n;
+
+//     cout << "Fibonacci series is:" << endl;
+//     for (int i = 0; i < n; i++)
+//     {
+//         cout << fibonacci(i) << " ";
+//     }
+//     cout << endl;
+//     return 0;
+// }
+
+
+
+
+
+// ----------------climb stairs-------------
+
+// #include <iostream>
+// using namespace std;
+
+// int countStairs(int n)
+// {
+
+//     if (n < 0)
+//     {
+//         return 0;
+//     }
+//     if (n == 0)
+//     {
+//         return 1;
+//     }
+
+//     return countStairs(n - 1) + countStairs(n - 2);
+// }
+
+// int main()
+// {
+
+//     int n;
+//     cout << "Enter the numbers of stairs:" << endl;
+//     cin >> n;
+
+//     cout<<"NO of distinct ways:"<< countStairs(n) <<endl;
+
+//     return 0;
+// }
+
+
+
+
+
+// --------------say digit------------
 
 #include <iostream>
 using namespace std;
+int main(){
 
-int fibonacci(int n)
-{
 
-    // base case
-    if (n == 0)
-    {
-        return 0;
-    }
-    if (n == 1)
-    {
-        return 1;
-    }
 
-    // recursion call
-    return fibonacci(n - 1) + fibonacci(n - 2);
-}
-
-int main()
-{
-    int n;
-    cout << "Enter the value of n:" << endl;
-    cin >> n;
-
-    cout << "Fibonacci series is:" << endl;
-    for (int i = 0; i < n; i++)
-    {
-        cout << fibonacci(i) << " ";
-    }
-    cout << endl;
     return 0;
 }
