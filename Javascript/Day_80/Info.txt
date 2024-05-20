@@ -1,0 +1,2 @@
+🌟 Day 80 of #100DaysOfCode: Began learning about Linked Lists and their types, and revisited JavaScript concepts. 💻🔄 Continuous learning and revision are essential! 
+#100DaysOfCode #DSA #LinkedList #JavaScript 🚀
