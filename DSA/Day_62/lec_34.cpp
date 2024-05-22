@@ -143,6 +143,7 @@ void sortArray(int *arr, int n) {
 
 }
 
+
 int main() {
 
     int arr[5] = {2,5,1,6,9};
@@ -152,7 +153,6 @@ int main() {
     for(int i=0; i<5; i++) {
         cout << arr[i] << " ";
     }cout << endl;
-
 
     return 0;
 }
