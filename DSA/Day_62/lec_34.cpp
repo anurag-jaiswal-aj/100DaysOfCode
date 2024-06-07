@@ -96,9 +96,11 @@
 //     int ans = power(a, b/2);
 
 //     //if b is even
+
 //     if(b%2 == 0) {
 //         return ans * ans;
 //     }
+
 //     else {
 //         //if b is odd
 //         return a * ans * ans;
