@@ -6,6 +6,7 @@
 // bool isSorted(int arr[], int size){
 // //bool isSorted(int *arr, int size){
 //     if(size == 0 || size == 1){
+
 //         return true;
 //     }
 //     if(arr[0]>arr[1]){
@@ -41,6 +42,7 @@
 
 // --------------sum------------------
 
+
 // #include<iostream>
 // using namespace std;
 
@@ -59,6 +61,7 @@
 //     int sum = arr[0] + remainingPart;
 //     return sum;
 // }
+
 
 // int main() {
 
