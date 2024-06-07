@@ -140,9 +140,11 @@ void print(int arr[], int s, int e) {
 
 bool binarySearch(int *arr, int s, int e , int k ) {
 
+
     //base case
 
     //element not found
+
     if(s>e)
         return false;
 
