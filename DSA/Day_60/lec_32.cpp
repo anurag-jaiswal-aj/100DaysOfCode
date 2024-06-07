@@ -139,7 +139,9 @@ void sayDigit(int n, string arr[]) {
 
     cout << arr[digit] << " ";
 
+
 }
+
 
 int main() {
 
