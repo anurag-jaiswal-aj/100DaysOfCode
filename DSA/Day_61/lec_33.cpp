@@ -131,12 +131,14 @@
 #include<iostream>
 using namespace std;
 
+
 void print(int arr[], int s, int e) {
 
     for(int i=s; i<=e; i++) {
         cout << arr[i] << " ";
     } cout << endl;
 }
+
 
 bool binarySearch(int *arr, int s, int e , int k ) {
 
